@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "deploy": "now ln $(cd public && now -n think --public | tail -n3) think.now.sh",
+    "deploy": "now ln $(now -n think --public | tail -n3) think.now.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js"
   },
